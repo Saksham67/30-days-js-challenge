@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #471396;
+    color: aquamarine;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: lch(3.87% 44.64 304.52);
+    text-align: center;
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.7)
+}
+#clock{
+    font-size: 3rem;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
