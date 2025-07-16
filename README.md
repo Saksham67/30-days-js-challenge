@@ -1,1 +1,1 @@
-# 30-days-js-challenge
+# started with mini-projects
