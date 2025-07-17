@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #090040;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    background-color: #210F37;
+    border: 1px solid ;
+    text-align: center;
+    padding: 30px 60px;
+    border-radius: 10px;
+    box-shadow: 8px 8px  floralwhite inset, 8px 8px floralwhite;
+    
+}
+#counter{
+    font-size: 45px;
+    font-weight: 600;
+}
+.buttons{
+    width: 100%;
+    margin: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.buttons #minus{
+    background-color: red;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding: 0px 20px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+.buttons #reset{
+    background-color: rgb(189, 189, 20);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 2px 20px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    cursor: pointer;
+
+}
+.buttons #plus{
+    background-color: green;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding: 0px 20px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+#minus:active, #reset:active, #plus:active{
+    box-shadow: 0 2px #666;
+    transform: translateY(4px) scale(0.98);
+}
+
+
+
